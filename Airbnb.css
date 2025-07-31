@@ -1,0 +1,515 @@
+*{
+    margin: 0;
+}
+#head{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid gray;
+
+}
+#logo .img0{ 
+    width: 100px;
+    mix-blend-mode: multiply;
+   
+    
+}
+
+#text{
+    display: flex;
+    
+}
+#sub-text{
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    
+    padding: 11px;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: rgb(77, 78, 78);
+}
+#sub-text0{
+    font-size: 19px;
+    margin-right: 7px;
+    font-family: 'Segoe UI';
+    width:fit-content;
+    height: max-content;
+    padding: 7px;
+    
+
+}
+#sub-text0:hover a{
+    font-size: 18px;
+    margin-right: 7px;
+    font-family: 'Segoe UI';
+    width:fit-content;
+    height: max-content;
+    color: black;
+    padding: 7px;
+    border-radius: 15px;
+    background-color: wheat;
+
+}
+
+#home{
+    
+    display: flex; 
+    padding-top: 1%; 
+   
+
+}
+#sub-home{
+    font-size: 19px;
+    margin-right: 7px;
+    font-family: 'Segoe UI';
+    width:fit-content;
+    height: max-content;
+    padding: 1px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+#sub-home:hover a{
+    font-size: 19px;
+    margin-right: 7px;
+    font-family: 'Segoe UI';
+    width:fit-content;
+    height: max-content;
+    color: black;
+    padding: 1px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 15px;
+    background-color: wheat;
+
+}
+
+#language .img1{
+    width: 23px;
+    padding: 10px;
+}
+#login{
+    display: flex;    
+    flex-direction: row-reverse;
+    
+
+}
+.img2{
+    width: 26px;
+   
+
+}
+#login1{
+    
+    display: none;
+
+}
+#login:hover #login1{
+    display: block;
+    font-size: 17px;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    float: right;
+    background-color: aquamarine;
+    
+}
+.log-in{
+    font-size: 17px;
+    margin-top: 7px;
+
+}
+#head0{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+    width: 100%;
+    height: 70%;
+    align-items: center;
+    box-shadow: 1.3px 1.3px 1.3px 1.0px  gray;
+    border-radius: 40px;
+}
+.search{
+    margin: auto;
+    border-right: 1px solid gray;
+    padding-right: 10px;
+    padding-left: 15px;
+    
+    
+
+}
+.sh1{
+    font-family: Verdana;
+    font-size: 11px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+
+}
+.sh2{
+    font-size: 15px;
+    font-family: Verdana;
+    color: rgb(88, 88, 88);
+    
+}
+.input1{
+    border: none;
+    font-size: 15px;
+    font-family: Verdana;
+
+}
+.search:hover{
+    background-color: rgb(231, 227, 227);
+    border-radius: 40px;
+    padding: 8px;
+    width: fit-content;
+}
+.search0{
+    display: flex;
+    margin-right: 10px;
+
+}
+.search1{
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 15px;
+}
+.sh3{
+    font-family: Verdana;
+    font-size: 11px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+
+}
+.sh4{
+    font-size: 15px;
+    font-family: Verdana;
+    color: rgb(88, 88, 88);
+    
+}
+.sh0{
+    width: 2%;
+    background-color: rgb(255, 70, 70);
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: Verdana;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    
+}
+#bodtext0{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+#bodtext{
+    width: 60%;
+    display: flex;
+    overflow-x:scroll;
+    margin-left: 2%;
+    
+}
+#list{
+    border-radius: 10px;
+    padding: 3px;
+    text-align: center;
+    background-color: white;
+    
+    margin: 10px;
+    font-size: 13px;
+    font-family: Tahoma;
+    width: 100%;
+    
+}
+#list-name{
+    margin-top: 4px;
+    text-align: center;
+    width:max-content;
+    
+}
+.img4{
+    width: 35px;
+    height: 30%;
+}
+#filt{
+    margin-top: 10px;
+    width: 23%;
+    top: 0px;
+}
+#filter{
+    margin-bottom: 10px;
+    margin-left: 40px;
+    display: flex;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+.img5{
+    width: 20px;
+    margin-right: 4px;
+}
+label{
+    font-size: 18px;
+}
+#radio{
+    margin-left: 40px;
+    display: flex;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+}
+#input0{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+#bodytext{
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    
+    
+}
+
+#tourist{
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-bottom: 1%;
+    width: 330px;
+    height: 330px;
+    padding: 10px;
+    border-radius: 9px;
+
+     
+}
+#tourist:hover {
+    margin-top: 4%;
+    width: 330px;
+    height: 330px;
+    cursor: pointer;
+    border-radius: 9px;
+    padding: 10px;
+    margin-left: 4%;
+    margin-bottom: 1%;
+    background-color: hsl(0, 100%, 99%);
+     
+}
+#tourist:hover .img6 {
+    width: 330px;
+    height: 240px;
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 7.5px; 
+}
+.img6{
+    width: 330px;
+    height: 240px;
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 7.5px;    
+}
+
+#nation{
+    display: flex;
+    justify-content: space-between;
+}
+#city{
+    font-size: 20px;
+    font-family:  Calibri;
+    font-weight: bolder;
+}   
+#star{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Calibri;
+    width: 60px;
+    background-color: rgb(0, 255, 170);
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+#distance{
+    display: flex;
+    flex-direction: column;
+}
+#dist{
+    width: 200px;
+    font-size: 17px;
+    font-family: 'Courier New';
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+#date{
+    font-size: 17px;
+    font-family: 'Courier New';
+}
+#rupees{
+    display: flex;
+}
+#rupe{
+    font-size: 17px;
+    margin-right: 5px;
+    font-family: 'Segoe UI';
+    font-weight: bolder;
+}
+#day{
+    margin-top: auto;
+    font-size: 15px;
+    font-family: 'Segoe UI';
+    
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-bottom: 1px solid black;
+}
+h2{
+    margin-top: 1%;
+    font-family: Arial;
+}
+#foot{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+#main-foot{
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+#span1{
+    color: black;
+    font-weight: bolder;
+}
+span{
+    width: fit-content;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    color: rgb(46, 46, 46);
+    margin-right: 1%;
+}
+#footz{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+
+}
+#text-1{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    flex-direction: column;
+    padding-top: 2%;
+    
+    
+
+}
+#main-text{
+    font-weight: bolder;
+    font-size: 17.5px;
+    font-family: serif;
+
+}
+#fo-text{
+    font-size: 17.5px;
+    font-family: serif;
+
+}
+#foot1{
+    padding-top: 1%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+
+}
+h4{
+    padding-top: 1%;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#ul{
+    width: 33%;
+
+}
+li{
+    list-style: none;
+    font-size: 17.5px;
+    padding-top: 1%;
+
+}
+#foot2{
+    display: flex;
+    margin: auto;
+    padding-top: 2%;
+
+}
+#inr{
+    display: flex;
+}
+.img7{
+    width: 16px;
+}
+#lan1{
+    font-size: medium;
+    padding-left: 5px;
+}
+#rup{
+    font-size: 17.5px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.img8{
+    
+    width: 19.5px;
+    padding-left: 10px;
+
+}
+#copy{
+    padding-top: 1%;
+    margin: auto;
+    font-size: 16px;
+    font-family: 'Cambria';
+    font-weight: bolder;
+}
+#ul1{
+    display: flex;
+    margin: auto;
+    padding: 0.5%;
+    padding-bottom: 1%;
+}
+#li1{
+    
+    padding-right: 20px;
+    list-style:circle;
+    font-size: 17.5px;
+}
+#li0{
+    padding-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
